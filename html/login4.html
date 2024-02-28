@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/login4.css">
+    <title>Login1|4  </title>
+</head>
+<body>
+    <div class="box">
+        <span class="borderLine"></span>
+        <form action="" class="form">
+            <h2>Sing in</h2>
+            <div class="inputBox">
+                <input type="text" name="user" id="user" required>
+                <div class="view">
+                    <span>Username</span>
+                    <i class="ri-user-3-line icon"></i>
+                </div>
+                <i class="back"></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" name="pass" id="pass" required>
+                <div class="view">
+                    <span>Password</span>
+                    <i class="ri-eye-off-line login__eye icon eye" onclick="view()" id="eye" ></i>    
+                </div>
+                <i class="back"></i>
+            </div>
+
+            <div class="links">
+                <a href="#">Forgot Password</a>
+                <a href="#">Sign up</a>
+            </div>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+<script src="../js/login4.js"></script>
+</html>
